@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.form-container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(girl_3.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.input-label {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+  transition: 0.2s;
+}
+
+.btn-grp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  width: 48%;
+  padding: 10px 0;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: #fff;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+  font-size: 14px;
+  top: -35px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row .input-label {
+  flex-basis: 48%;
+}

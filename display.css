@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+h2 {
+  margin: 50px 0;
+}
+
+.table {
+  margin: auto;
+}
