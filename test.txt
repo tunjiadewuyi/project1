@@ -1,1 +1,1 @@
-testing my knowledge of Git commands
+testing my knowledge of Git commands, doing this helps me to grasp the core idea of it use in the IT world,
